@@ -1,7 +1,16 @@
 # cpp-thread-study
 
-教程：
+### 使用方法
+```bash
+mkdir build     #在cpp-thread-study目录下生成
+cd buid         
+cmake ..        #生成MakeFile
+build -j4       #编译成可执行文件
+cd bin          #可执行文件目录
+./hello1        #运行
+```
 
+### 教程：
 - [C++ 并发编程（一）：创建线程](doc/CppConcurrency01.ThreadCreation.md)
 - [C++ 并发编程（二）：Mutex（互斥锁）](doc/CppConcurrency02.Mutex.md)
 - [C++ 并发编程（三）：条件变量（Condition Variable）](doc/CppConcurrency03.ConditionVariable.md)
